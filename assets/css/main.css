@@ -23,9 +23,6 @@ body{
 .row{
     flex-direction: row;
 }
-.col{
-    flex-direction: column;
-}
 
 /* Card style */
 .card{
