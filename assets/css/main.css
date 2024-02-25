@@ -1,0 +1,136 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+/* body style */
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex */
+.container-fluid{
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.col{
+    flex-direction: column;
+}
+
+/* Card style */
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 390px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-body{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* Container icons */
+.container-icon i{
+    font-size: 35px;
+}
+.container-danger-icon{
+    background-color: rgba(255, 99, 71, 0.212);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-success-icon{
+    background-color: rgba(45, 203, 156, 0.212);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-warning-icon{
+    background-color: rgba(253, 125, 20, 0.212);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-info-icon{
+    background-color: rgba(13, 202, 240, 0.212);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* btn style */
+.btn{
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+.action .btn{
+    margin-right: 0px;
+}
+
+/* btn color */
+.btn-danger{
+    background-color: tomato;
+    color: white;
+}
+.btn-success{
+    background-color: #2DCB9C;
+    color: white;
+}
+.btn-warning{
+    background-color: #FD7E14;
+    color: white;
+}
+.btn-info{
+    background-color: #0DCAF0;
+    color: white;
+}
+
+/* icon color */
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-icon{
+    font-size: 35px;
+    color: #2DCB9C;
+}
+.danger-icon{
+    font-size: 35px;
+    color: tomato;
+}
+.warning-icon{
+    font-size: 35px;
+    color: #FD7E14;
+}
+.info-icon{
+    font-size: 35px;
+    color: #0DCAF0;
+}
